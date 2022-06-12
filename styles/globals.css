@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/fonts/Helvetica Neue/HelveticaNeueCyr-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/fonts/Helvetica Neue/HelveticaNeueCyr-Light.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  color: #081420;
+  font-family: Quicksand;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hover6:hover {
+  transition: opacity .3s;
+  opacity: 0.8;
+}
