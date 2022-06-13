@@ -50,7 +50,7 @@ export default function Button(props: Props) {
         border: `2px solid ${theme.palette.common.black}`,
         transition: '.3s',
         borderRadius: borderRadius || '90px',
-        backgroundColor: backgroundColor ? backgroundColor : primary ? theme.bgColor.text.primary : theme.bgColor.bg1,
+        backgroundColor: backgroundColor ? backgroundColor : primary ? theme.palette.text.primary : theme.bgColor.bg1,
         color: color ? color : primary ? theme.palette.primary.contrastText : theme.palette.text.primary,
         '&:hover': {
           color: theme.textColor.text2,
