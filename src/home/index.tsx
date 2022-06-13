@@ -14,6 +14,14 @@ const Wrapper = styled(Box)(({ theme }) => ({
   },
 }))
 
+const StyledLink = styled(Link)({
+  display: 'block',
+  textDecoration: 'none',
+  '& button': {
+    width: '100%',
+  },
+})
+
 export default function Index() {
   return (
     <Wrapper>
@@ -47,9 +55,18 @@ export default function Index() {
               Multichain Event Protocol (MEP) is an interoperability communication protocol
             </Typography>
             <Box mt="35px" display={'grid'} gap="15px" gridTemplateColumns="repeat(auto-fill, 200px)">
-              <Button>Request Demo</Button>
-              <Button>Learn More</Button>
-              <Button>Contact Us</Button>
+              <StyledLink
+                target="_blank"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfQCF3ja2LTZDs7biIdydPUvl5bStCajC_NxboPCd9t6SEDUQ/viewform?usp=pp_url"
+              >
+                <Button>Request Demo</Button>
+              </StyledLink>
+              <StyledLink target="_blank" href="https://docs.multievent.xyz/">
+                <Button>Learn More</Button>
+              </StyledLink>
+              <StyledLink href="mailto://Contact@multievent.xyz">
+                <Button>Contact Us</Button>
+              </StyledLink>
             </Box>
           </Box>
         </Box>
