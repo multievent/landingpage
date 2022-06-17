@@ -61,6 +61,12 @@ export default function Index() {
               >
                 <Button>Request Demo</Button>
               </StyledLink>
+              <StyledLink
+                target="_blank"
+                href="https://drive.google.com/file/d/1h7behe49PkvqzFb-CRU5iev24X01FmZJ/view?usp=sharing"
+              >
+                <Button>Whitepaper</Button>
+              </StyledLink>
               <StyledLink target="_blank" href="https://docs.multievent.xyz/">
                 <Button>Learn More</Button>
               </StyledLink>
