@@ -75,6 +75,27 @@ export default function Index() {
               </StyledLink>
             </Box>
           </Box>
+          <Box
+            sx={{
+              position: 'absolute',
+              bottom: 20,
+              display: 'grid',
+              fontWeight: 700,
+              '& a': {
+                color: '#000',
+              },
+            }}
+          >
+            <Link underline="hover" target={'_blank'} href="https://twitter.com/Multieventxyz">
+              twitter
+            </Link>
+            <Link underline="hover" target={'_blank'} href="https://www.linkedin.com/company/multieventprotocol/">
+              linkedin
+            </Link>
+            <Link underline="hover" target={'_blank'} href="https://medium.com/@Multievent.xyz">
+              medium
+            </Link>
+          </Box>
         </Box>
       </CommonContainer>
     </Wrapper>
